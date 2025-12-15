@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercury Express - منصة التسويق بالعمولة الفاخرة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <!-- Add Overlay BEFORE your <nav> tag -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Your Navigation (add the mobile toggle button) -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 co-nav"
+    >
+      <a
+        href="https://mercury.tryebs.app/"
+        class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+      >
+        <img
+          src="https://mercury.tryebs.app/front_files/clara/img/logo_mer.jpg"
+        />
+      </a>
+
+      <!-- ✨ ADD THIS BUTTON -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Add id="navMenu" to your nav-end div -->
+      <div class="nav-end" id="navMenu">
+        <!-- Rest of your navigation code stays the same -->
+        <div class="navbar-nav">
+          <a href="https://mercury.tryebs.app" class="nav-item nav-link active"
+            >الرئيسية</a
+          >
+          <a href="#us" class="nav-item nav-link">من نحن</a>
+          <a href="#how-it-started" class="nav-item nav-link">شرح السيستم</a>
+          <a href="#join-uss" class="nav-item nav-link">كيف تنضم؟</a>
+        </div>
+
+        <div class="navbar-nav">
+          <a
+            href="https://mercury.tryebs.app/login"
+            class="btn d-lg-block login-btn"
+            >تسجيل دخول</a
+          >
+          <a
+            href="https://mercury.tryebs.app/register/affilite"
+            class="btn btn-primary d-lg-block sign-up-btn"
+            >سجل الأن</a
+          >
+
+          <!-- Add id="dropdownToggle" to your dropdown button -->
+          <div class="nav-fix">
+            <button
+              class="dropdown-btn"
+              id="dropdownToggle"
+              data-dropdown="dropdown4"
+            >
+              <img
+                src="https://mercury.tryebs.app/front_files/clara/img/2634333_ensign_flag_kuwait_nation_icon.png"
+              />
+              العربية<i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="dropdown4" class="dropdown">
+              <form class="nav-form">
+                <div class="form-group">
+                  <label class="col-md-12 control-label">اللغة</label>
+                  <select
+                    name=""
+                    id=""
+                    class="form-control"
+                    onchange="location = this.value;"
+                  >
+                    <option
+                      class="text-dark"
+                      value="https://mercury.tryebs.app/lang=ar"
+                      selected=""
+                    >
+                      العربية
+                    </option>
+                    <option
+                      class="text-dark"
+                      value="https://mercury.tryebs.app/lang=en"
+                    >
+                      English
+                    </option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <!-- Hero Section -->
+      <section id="clara" class="clara">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="title">
+              <h1>Mercury Express</h1>
+            </div>
+            <p>
+              اكبر واول منصه فى مصر بتقدم خدمات متكامله لكل من يحلم ببناء كيان
+              تجارى الكترونى اشترك في برنامج الافلييت ... بأعلى معدلات ربح على
+              الاطلاق وهتبدأ مشروع بدون اى تكاليف من حيث رأس المال او خساره
+            </p>
+            <a href="#join-uss">
+              <button>ابدأ الآن <i class="fa fa-arrow-left"></i></button>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="ecommerce"
+              src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Mercury Express"
+              onerror="this.src='https://via.placeholder.com/800x600/FF9933/FFFFFF?text=Mercury+Express'"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Who We Are Section -->
+      <section id="us" class="us">
+        <div class="title">
+          <h4>من نحن؟</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              class="ecommerce"
+              src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="About Us"
+              onerror="this.src='https://via.placeholder.com/800x600/5C5C5C/FFFFFF?text=About+Us'"
+            />
+          </div>
+          <div class="col-lg-6">
+            <p>
+              اكبر واول منصه فى مصر بتقدم خدمات متكامله لكل من يحلم ببناء كيان
+              تجارى الكترونى,بأعلى معدلات ربح على الاطلاق وهتبدأ مشروع بدون اى
+              تكاليف من غير رأس المال او تحمل اى خساره .لان ببساطه بنوفر الدوره
+              الكامله لعمليه البيع بدايه من توفير اكبر عدد من المنتجات مبيعا
+              وبأعلى ربح متوقع واكتر من نظام تشتغل بيه وخدمه تجهيز وتغليف وكمان
+              بنقدم خدمه الشحن من خلال مناديبنا وفروعنا الخاصه فى جميع انحاء
+              الجمهورية
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Join Section -->
+      <section id="join" class="join">
+        <div class="title">
+          <h4>لماذا عليك ان تنضم اليوم إلينا؟</h4>
+        </div>
+        <div class="row">
+          <div class="card">
+            <img
+              src="https://img.icons8.com/fluency/96/truck.png"
+              alt="Fast Delivery"
+              onerror="this.src='https://img.icons8.com/color/96/000000/truck.png'"
+            />
+            <h6>شحن سريع</h6>
+            <hr />
+            <p>بنقدملك خدمة شحن سريعة لجميع المحافظات</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://img.icons8.com/fluency/96/money-bag.png"
+              alt="Instant Commission"
+              onerror="this.src='https://img.icons8.com/color/96/000000/money-bag.png'"
+            />
+            <h6>عمولة لحظية</h6>
+            <hr />
+            <p>عمولتك هتسمع في حسابك بمجرد استلام عميلك الاوردر</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://img.icons8.com/fluency/96/coin-in-hand.png"
+              alt="No Capital"
+              onerror="this.src='https://img.icons8.com/color/96/000000/money.png'"
+            />
+            <h6>من غير رأس مال</h6>
+            <hr />
+            <p>معانا تقدر تبدأ البيزنيس بتاعك بدون اي مخاطرة</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://img.icons8.com/color/96/000000/approval.png"
+              alt="High Quality"
+            />
+            <h6>منتجات بجودة عالية</h6>
+            <hr />
+            <p>بنختارلك اكثر المنتجات مبيعا في السوق المصري</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://img.icons8.com/fluency/96/headset.png"
+              alt="Best Support"
+              onerror="this.src='https://img.icons8.com/color/96/000000/headset.png'"
+            />
+            <h6>أفضل دعم</h6>
+            <hr />
+            <p>دعم بيساعدك في حل اي مشكلة بتواجهك</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://img.icons8.com/fluency/96/customer-support.png"
+              alt="Customer Service"
+              onerror="this.src='https://img.icons8.com/color/96/000000/customer-support.png'"
+            />
+            <h6>خدمة عملاء متخصصة</h6>
+            <hr />
+            <p>خدمة عملاء بتابع الاوردرات مع العملاء حتى توصل الاوردر</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section id="how-it-started" class="how-it-started">
+        <div class="title">
+          <h4>شرح السيستم</h4>
+        </div>
+        <p>
+          خليك عضو اساسي من كيان بيهتم بيك وبشغلك ويسعي دايما بأنه يقدملك افضل
+          خدمه تقدر من خلالها تبني البراند الخاص بيك وتزود ارباحك من خلال تيم
+          قوي بيحاول دايما ان يقدم افضل ما يمتلك
+        </p>
+        <video
+          controls
+          autoplay
+          style="
+            display: block;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            border-radius: 30px;
+          "
+        >
+          <source src="/Rihanna — Lift Me Up.mp4" type="video/mp4" />
+          <source src="" type="" />
+        </video>
+      </section>
+
+      <!-- Steps to Join Section -->
+      <section id="join-uss" class="join-uss">
+        <div class="title">
+          <h4>انضم الي ميركلي وزود ارباحك</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex">
+              <div class="numb">1</div>
+              <div>
+                <h5>سجل</h5>
+                <p>سجل معانا كمسوق لجمال من خلال عمل اكونت خاص بيك كمسوق</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="numb">2</div>
+              <div>
+                <h5>اختر المنتج</h5>
+                <p>ما عليك سوي ان تختار المنتجات التي تريد التسويق لها</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="numb">3</div>
+              <div>
+                <h5>اطلب</h5>
+                <p>اطلب من خلال سيستم بسيط وواضح بيساعدك في اختيار منتجاتك</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="numb">4</div>
+              <div>
+                <h5>استلم عمولتك</h5>
+                <p>
+                  فورا بعد اكتمال العملية بنجاح يمكنك سحب عمولتك بكل سهوله
+                  وبأكثر من طريقه
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=800&fit=crop"
+              alt="Join Steps"
+              onerror="this.src='https://via.placeholder.com/800x800/FF9933/FFFFFF?text=Steps'"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section class="products">
+        <div class="d-flex justify-content-between">
+          <div class="title">
+            <h4>أحدث المنتجات</h4>
+          </div>
+          <h3><a href="#">عرض الكل</a></h3>
+        </div>
+        <div class="grid">
+          <div class="product-card">
+            <img
+              src="https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Product 1"
+              onerror="this.src='https://via.placeholder.com/400x400/FF9933/FFFFFF?text=Product'"
+            />
+            <div class="product-info">
+              <h5>سماعات بلوتوث فاخرة</h5>
+              <div class="price">899 جنيه</div>
+              <button>اضف للسلة</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Product 2"
+              onerror="this.src='https://via.placeholder.com/400x400/FF9933/FFFFFF?text=Product'"
+            />
+            <div class="product-info">
+              <h5>ساعة ذكية رياضية</h5>
+              <div class="price">1,299 جنيه</div>
+              <button>اضف للسلة</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Product 3"
+              onerror="this.src='https://via.placeholder.com/400x400/FF9933/FFFFFF?text=Product'"
+            />
+            <div class="product-info">
+              <h5>حقيبة جلد فاخرة</h5>
+              <div class="price">1,599 جنيه</div>
+              <button>اضف للسلة</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Product 4"
+              onerror="this.src='https://via.placeholder.com/400x400/FF9933/FFFFFF?text=Product'"
+            />
+            <div class="product-info">
+              <h5>نظارة شمسية عصرية</h5>
+              <div class="price">499 جنيه</div>
+              <button>اضف للسلة</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row text-center"
+          style="width: 100%; justify-content: center"
+        >
+          <a class="btn-pro-plus" href="#"
+            >عرض المزيد <i class="fa fa-arrow-down"></i
+          ></a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="/sd.jpg"
+              alt="Mercury Express Logo"
+              onerror="this.style.display='none'"
+            />
+            <p>
+              اكبر واول منصه فى مصر بتقدم خدمات متكامله لكل من يحلم ببناء كيان
+              تجارى الكترونى
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h6>الصفحات</h6>
+            <ul>
+              <li><a href="https://mercury.tryebs.app/">الرئيسية</a></li>
+              <li><a href="#us">عن النظام</a></li>
+              <li><a href="#how-it-started">شرح السيستم</a></li>
+              <li><a href="#join-uss">كيف تنضم؟</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h6>التواصل</h6>
+            <ul>
+              <li><a href="#">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h6>المواقع</h6>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/ecomerg"
+                  ><i class="fab fa-facebook-f"></i> تابعنا عبر فيسبوك</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i> تابعنا عبر تويتر</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fab fa-telegram"></i> انضم الينا في تليجرام</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="container">
+      <div class="copyright">
+        <div>
+          <a>Copyright © Mercury Express 2025</a>
+        </div>
+        <div>
+          <a href="https://mercury.tryebs.app/privacy/policy">سياسة الخصوصية</a>
+          <a href="https://mercury.tryebs.app/terms&conditions"
+            >الشروط والأحكام</a
+          >
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+    <script src="master.js"></script>
+  </body>
+</html>
