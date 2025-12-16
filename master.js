@@ -179,8 +179,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // ACTIVE LINK ON SCROLL
   // ==========================================
   window.addEventListener("scroll", function () {
-    let pos = window.scrollY + 120;
+    const pos = window.scrollY + 120;
 
+    // 👇 Always activate HOME when near top
+    if (window.scrollY < 200) {
+      navLinks.forEach((l) => l.classList.remove("active"));
+      const homeLink = document.querySelector('a[href="#home"]');
+      if (homeLink) homeLink.classList.add("active");
+      return;
+    }
+
+    // 👇 Normal section handling
     navLinks.forEach(function (link) {
       const href = link.getAttribute("href");
       if (!href || !href.startsWith("#")) return;
@@ -197,6 +206,4 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-
-  console.log("✅ Mercury Express Navigation Ready");
 });
